@@ -32,7 +32,7 @@ class Feedback extends Component {
   playAgain = () => {
     const { history, resetGame } = this.props;
     resetGame(0, 0, {});
-    history.push('/');
+    history.push('/project-game-trivia');
   }
 
   toRankingPage = () => {
