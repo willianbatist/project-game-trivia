@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf602b90.chunk.css",
-    "main.js": "/static/js/main.491f5aec.chunk.js",
-    "main.js.map": "/static/js/main.491f5aec.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e2209b7b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e2209b7b.js.map",
-    "static/js/2.13399ef1.chunk.js": "/static/js/2.13399ef1.chunk.js",
-    "static/js/2.13399ef1.chunk.js.map": "/static/js/2.13399ef1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.672e22946d17aabe8edad5579c20ef29.js": "/precache-manifest.672e22946d17aabe8edad5579c20ef29.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.bf602b90.chunk.css.map": "/static/css/main.bf602b90.chunk.css.map",
-    "static/js/2.13399ef1.chunk.js.LICENSE.txt": "/static/js/2.13399ef1.chunk.js.LICENSE.txt",
-    "static/media/trivia.png": "/static/media/trivia.466d153e.png"
+    "main.css": "/project-game-trivia/static/css/main.bf602b90.chunk.css",
+    "main.js": "/project-game-trivia/static/js/main.491f5aec.chunk.js",
+    "main.js.map": "/project-game-trivia/static/js/main.491f5aec.chunk.js.map",
+    "runtime-main.js": "/project-game-trivia/static/js/runtime-main.5e9bcbbd.js",
+    "runtime-main.js.map": "/project-game-trivia/static/js/runtime-main.5e9bcbbd.js.map",
+    "static/js/2.13399ef1.chunk.js": "/project-game-trivia/static/js/2.13399ef1.chunk.js",
+    "static/js/2.13399ef1.chunk.js.map": "/project-game-trivia/static/js/2.13399ef1.chunk.js.map",
+    "index.html": "/project-game-trivia/index.html",
+    "precache-manifest.006a352faff1ea95a8fc1ba8a269ad8d.js": "/project-game-trivia/precache-manifest.006a352faff1ea95a8fc1ba8a269ad8d.js",
+    "service-worker.js": "/project-game-trivia/service-worker.js",
+    "static/css/main.bf602b90.chunk.css.map": "/project-game-trivia/static/css/main.bf602b90.chunk.css.map",
+    "static/js/2.13399ef1.chunk.js.LICENSE.txt": "/project-game-trivia/static/js/2.13399ef1.chunk.js.LICENSE.txt",
+    "static/media/trivia.png": "/project-game-trivia/static/media/trivia.466d153e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2209b7b.js",
+    "static/js/runtime-main.5e9bcbbd.js",
     "static/js/2.13399ef1.chunk.js",
     "static/css/main.bf602b90.chunk.css",
     "static/js/main.491f5aec.chunk.js"
