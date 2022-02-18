@@ -1,7 +1,7 @@
 {
   "name": "project-game-trivia",
   "version": "0.1.0",
-  "homepage": "project-game-trivia/project-game-trivia/",
+  "homepage": "sd-017-project-trivia-react-redux/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/user-event": "^7.1.2",
