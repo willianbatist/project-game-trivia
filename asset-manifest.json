@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/project-game-trivia/static/css/main.bf602b90.chunk.css",
+    "main.js": "/project-game-trivia/static/js/main.64a64528.chunk.js",
+    "main.js.map": "/project-game-trivia/static/js/main.64a64528.chunk.js.map",
+    "runtime-main.js": "/project-game-trivia/static/js/runtime-main.c9bf09ae.js",
+    "runtime-main.js.map": "/project-game-trivia/static/js/runtime-main.c9bf09ae.js.map",
+    "static/js/2.5ee9864c.chunk.js": "/project-game-trivia/static/js/2.5ee9864c.chunk.js",
+    "static/js/2.5ee9864c.chunk.js.map": "/project-game-trivia/static/js/2.5ee9864c.chunk.js.map",
+    "index.html": "/project-game-trivia/index.html",
+    "precache-manifest.8e76295eefc2a0d62c426144461e6deb.js": "/project-game-trivia/precache-manifest.8e76295eefc2a0d62c426144461e6deb.js",
+    "service-worker.js": "/project-game-trivia/service-worker.js",
+    "static/css/main.bf602b90.chunk.css.map": "/project-game-trivia/static/css/main.bf602b90.chunk.css.map",
+    "static/js/2.5ee9864c.chunk.js.LICENSE.txt": "/project-game-trivia/static/js/2.5ee9864c.chunk.js.LICENSE.txt",
+    "static/media/trivia.png": "/project-game-trivia/static/media/trivia.466d153e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9bf09ae.js",
+    "static/js/2.5ee9864c.chunk.js",
+    "static/css/main.bf602b90.chunk.css",
+    "static/js/main.64a64528.chunk.js"
+  ]
+}
