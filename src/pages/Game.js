@@ -1,6 +1,7 @@
 import propTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { decode } from 'he';
 import Header from '../components/Header';
 import triviaApi from '../services/triviaApi';
 import { tokenAction, scoreAction } from '../redux/actions';
@@ -28,13 +29,15 @@ class Game extends Component {
   }
 
   getQuestions = async () => {
-    const { token, renewToken } = this.props;
+    const { token, renewToken, category, difficulty, type } = this.props;
     const { currQues } = this.state;
-    const apiReturn = await triviaApi(token);
+    const apiReturn = await triviaApi(token, category, difficulty, type);
+    console.log(apiReturn);
+    console.log(token);
 
     if (apiReturn.response_code === global.ERROR_RESPONSE) {
       const newToken = await requestToken();
-      const newApiReturn = await triviaApi(newToken.token);
+      const newApiReturn = await triviaApi(newToken.token, category, difficulty, type);
       const { results } = newApiReturn;
       const incorrectAnswers = results[currQues].incorrect_answers;
       const correctAnswer = results[currQues].correct_answer;
@@ -169,7 +172,7 @@ class Game extends Component {
                   data-testid="question-text"
                   className="game-main__question"
                 >
-                  {apiReturn[currQues].question}
+                  {decode(apiReturn[currQues].question)}
                 </h3>
                 <section
                   data-testid="answer-options"
@@ -230,8 +233,12 @@ Game.propTypes = {
 }.isRequired;
 
 const mapStateToProps = (state) => {
-  const { token, player: { score } } = state;
-  return { token, score };
+  const {
+    token,
+    player: { score },
+    settings: { category, difficulty, type },
+  } = state;
+  return { token, score, category, difficulty, type };
 };
 
 const mapDispatchToProps = (dispatch) => ({
