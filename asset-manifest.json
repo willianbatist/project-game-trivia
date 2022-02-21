@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/project-game-trivia/static/css/main.cc51e0f2.chunk.css",
-    "main.js": "/project-game-trivia/static/js/main.4771d8fe.chunk.js",
-    "main.js.map": "/project-game-trivia/static/js/main.4771d8fe.chunk.js.map",
+    "main.css": "/project-game-trivia/static/css/main.772539b5.chunk.css",
+    "main.js": "/project-game-trivia/static/js/main.b3407168.chunk.js",
+    "main.js.map": "/project-game-trivia/static/js/main.b3407168.chunk.js.map",
     "runtime-main.js": "/project-game-trivia/static/js/runtime-main.c9bf09ae.js",
     "runtime-main.js.map": "/project-game-trivia/static/js/runtime-main.c9bf09ae.js.map",
-    "static/js/2.9fd71e89.chunk.js": "/project-game-trivia/static/js/2.9fd71e89.chunk.js",
-    "static/js/2.9fd71e89.chunk.js.map": "/project-game-trivia/static/js/2.9fd71e89.chunk.js.map",
+    "static/js/2.aa4bb386.chunk.js": "/project-game-trivia/static/js/2.aa4bb386.chunk.js",
+    "static/js/2.aa4bb386.chunk.js.map": "/project-game-trivia/static/js/2.aa4bb386.chunk.js.map",
     "index.html": "/project-game-trivia/index.html",
-    "precache-manifest.ea217b6a49a2fc669d16372438d483a4.js": "/project-game-trivia/precache-manifest.ea217b6a49a2fc669d16372438d483a4.js",
+    "precache-manifest.c093c836af4d79bd37b3e22c4d4021b4.js": "/project-game-trivia/precache-manifest.c093c836af4d79bd37b3e22c4d4021b4.js",
     "service-worker.js": "/project-game-trivia/service-worker.js",
-    "static/css/main.cc51e0f2.chunk.css.map": "/project-game-trivia/static/css/main.cc51e0f2.chunk.css.map",
-    "static/js/2.9fd71e89.chunk.js.LICENSE.txt": "/project-game-trivia/static/js/2.9fd71e89.chunk.js.LICENSE.txt",
+    "static/css/main.772539b5.chunk.css.map": "/project-game-trivia/static/css/main.772539b5.chunk.css.map",
+    "static/js/2.aa4bb386.chunk.js.LICENSE.txt": "/project-game-trivia/static/js/2.aa4bb386.chunk.js.LICENSE.txt",
     "static/media/trivia.png": "/project-game-trivia/static/media/trivia.466d153e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c9bf09ae.js",
-    "static/js/2.9fd71e89.chunk.js",
-    "static/css/main.cc51e0f2.chunk.css",
-    "static/js/main.4771d8fe.chunk.js"
+    "static/js/2.aa4bb386.chunk.js",
+    "static/css/main.772539b5.chunk.css",
+    "static/js/main.b3407168.chunk.js"
   ]
 }
