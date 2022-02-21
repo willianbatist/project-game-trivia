@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import propTypes from 'prop-types';
 import { settingsAction } from '../redux/actions';
+import './style/Settings.css';
 
 class Settings extends Component {
   constructor() {
@@ -12,10 +13,6 @@ class Settings extends Component {
       difficulty: '',
       type: '',
     };
-  }
-
-  componentDidMount() {
-    this.saveSettings();
   }
 
   handleSelect = ({ target }) => {
@@ -31,6 +28,7 @@ class Settings extends Component {
       `&difficulty=${difficulty}`,
       `&type=${type}`,
     );
+    window.alert('Settings Saved!');
   }
 
   homeButton = () => {
@@ -40,12 +38,12 @@ class Settings extends Component {
 
   render() {
     return (
-      <div data-testid="settings-title" className="settings">
+      <div data-testid="settings-title" className="settingsScreen">
         <h1 className="headerSettings">Settings</h1>
-        <section>
-          <label htmlFor="category">
-            Questions Category
-            <select id="category" onChange={ this.handleSelect }>
+        <section className="container">
+          <label htmlFor="category" className="settings__label">
+            Questions Category:
+            <select className="select" id="category" onChange={ this.handleSelect }>
               <option value="any">Any Category</option>
               <option value="9">General Knowledge</option>
               <option value="10">Entertainment: Books</option>
@@ -73,36 +71,41 @@ class Settings extends Component {
               <option value="32">Entertainment: Cartoon &amp; Animations</option>
             </select>
           </label>
-          <label htmlFor="difficulty">
-            Difficulty
-            <select id="difficulty" onChange={ this.handleSelect }>
+          <label htmlFor="difficulty" className="settings__label">
+            Difficulty:
+            <select className="select" id="difficulty" onChange={ this.handleSelect }>
               <option value="any">Any difficulty</option>
               <option value="easy">Easy</option>
               <option value="medium">Medium</option>
               <option value="hard">Hard</option>
             </select>
           </label>
-          <label htmlFor="type">
-            Questions Type
-            <select id="type" onChange={ this.handleSelect }>
+          <label htmlFor="type" className="settings__label">
+            Questions Type:
+            <select className="select" id="type" onChange={ this.handleSelect }>
               <option value="any">Any type</option>
               <option value="multiple">Multiple choice</option>
               <option value="boolean">True / False</option>
             </select>
           </label>
+
+          <div className="btns">
+            <button
+              className="btn1"
+              type="button"
+              onClick={ this.saveSettings }
+            >
+              Save Settings
+            </button>
+            <button
+              className="btn2"
+              type="button"
+              onClick={ this.homeButton }
+            >
+              Home
+            </button>
+          </div>
         </section>
-        <button
-          type="button"
-          onClick={ this.saveSettings }
-        >
-          Save Settings
-        </button>
-        <button
-          type="button"
-          onClick={ this.homeButton }
-        >
-          Home
-        </button>
       </div>
     );
   }
