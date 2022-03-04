@@ -7,18 +7,18 @@ Este repositório contem o **Projeto React Game Trivia** que reúne o aprendizad
 
 ### Resultado obtido:
 ### Deploy/ github pages do Projeto: [Game Trivia](https://willianbatist.github.io/project-game-trivia/)
-![](./StarWars-2022-03-03_18.25.16.gif)
+![](./GameTriviaNew.gif)
 
 #### Habilidades que foram exigidas:
 
   - Fazer requisições e consumir dados vindos de uma `API`;
   - Utilizar os ciclos de vida de um componente React;
-  - Utilizar a função `setState` de forma a garantir que um determinado código só é executado após o estado ser atualizado;
-  - Utilizar o componente `BrowserRouter` corretamente;
-  - Criar rotas, mapeando o caminho da URL com o componente correspondente, via `Route`;
-  - Utilizar o `Switch` do `React Router`;
-  - Usar o componente `Redirect` pra redirecionar para uma rota específica;
-  - Criar links de navegação na aplicação com o componente `Link`;
+  - Utilizar o Switch e React Router;
+  - Criar um store Redux em aplicações React;
+  - Criar actions no Redux em aplicações React;
+  - Criar dispatchers no Redux em aplicações React;
+  - Conectar Redux aos componentes React;
+  - Criar actions assíncronas na sua aplicação React que faz uso de Redux.
 
 ---
 
