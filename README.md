@@ -27,31 +27,29 @@ Este repositório contem o **Projeto React Game Trivia** que reúne o aprendizad
 
 ### Introdução
 
-O Projeto TrybeTunes é uma aplicação web, que busca recriar um serviço simples de streaming de música. Nesse projeto, foram utilizadas algumas tecnologias como ReactJS, React Router Dom, CSS e a API do Itunes, que permite acesso aos álbuns de cantores e bandas e reprodução de 30 segundos de cada faixa do álbum. No TrybeTunes, coloco em prática o meu aprendizado de react, que me facilita a criar páginas mais complexas com uma ótima definição de responsividade entre os componentes.
+O Projeto Game Trivia busca recriar os clássicos jogos de perguntas. Nesse projeto, foram utilizadas as seguintes tecnologias: ReactJS, Redux (actions, reducers, etc…), React Router e para gerar as perguntas foi utilizado a [API Trivia](https://opentdb.com/api_config.php). API gera perguntas de várias categorias e níveis de dificuldade diferentes, sendo possível combinar categorias com níveis de dificuldade, para só gerar perguntas ao qual foi especificada. Com esse projeto busco apresentar todo o conhecimento aprendido até o presente momento em Front-End, e me testar em relação aos desafios de criar uma página web dinâmica, que recebe várias interações do usuário, e graças ao Redux lida muito bem com a passagem de informações entre componentes React.
 
 
-### src/pages/Login.js
+### 2. Tela Inicial
 
-  A tela inicial da aplicação web é a rota “/”, interface de login do usuário, onde no momento em que a pessoa clicar no botão “ENTRAR” o nome de usuário é salvo no localStorage. No entanto, só é possível clicar em entrar se o campo usuário for preenchido. Depois do clique, a página é redirecionada para a rota “/search”, no qual é renderizado o componente page Search.js.
-
-
-### src/pages/Search.js
-
-Depois da tela de login, as outras interfaces renderizam o componente Header, que contém o menu de navegação e apresenta na tela o nome do usuário. A page Search é o local onde a pessoa usuária digita o nome do artista na barra de pesquisa e clica no botão pesquisar, nesse momento é feita a requisição à API do Itunes para buscar álbuns disponíveis do artista ou banda solicitada. Com o retorno da API realizado, as informações dos álbuns são renderizadas na tela de forma dinâmica.
-
-Após a pesquisa e os álbuns renderizados na tela é possível escolher algum e clicar para poder ouvir prévias das faixas do álbum, nesse caso a pessoa usuária é levada para outra rota “/album/:id” (:id é substituído pelo id do álbum escolhido), onde agora é renderizado com componente pages Album.js.
+  A primeira página exibida é a tela de login, onde são requeridos os dados de nome e e-mail, caso o e-mail esteja cadastrado no [Gravatar](https://pt.gravatar.com/) e a pessoa estiver uma foto no site, na tela do jogo Trivia terá a foto do usuário. A tela inicial também possui o botão de play que inicia o jogo e o botão Settings que dá acesso a página de configurações.
 
 
-### src/pages/Album.js
+### 2.1 Play!
 
-Na tela de Álbum, as informações do álbum continuam e agora a api é chamada para trazer as faixas do álbum selecionado. Com as faixas renderizadas na tela, é possível selecionar as músicas favoritas a partir do checkbox, as músicas ficam salvas no localStorage e ao recarregar a página os favoritos continuam marcados.
+Após preencher o nome e o e-mail, o botão Play será habilitado e, se clicado, inicia o jogo. Na tela do jogo, é apresentada a foto do usuário, o nome e o score que muda conforme os acertos no jogo. No meio da tela é mostrada a categoria, a pergunta e os botões com as alternativas de cada pergunta. Já na parte inferior, fica contido o cronômetro que define o tempo necessário para responder a pergunta, se o mesmo chegar a zero, a resposta será considerada errada. Sempre ao final do tempo ou ao clicar em umas das alternativas, o botão next aparecerá na página, para seguir o jogo até a próxima questão e chegar ao final das perguntas, onde o usuário encontrará a tela de FeedBack.
+
+
+### 2.2 Tela de FeedBack
+
+Nesse momento, a página mostra quantos pontos o jogador teve, a quantidade de questões certas e mais dois botões: 'Play again' para jogar de novo e o botão 'Ranking' que mostra o ranking dos jogadores anteriores. O Ranking dos jogadores é salvo no LocalStorage para que fique salvo sempre que a pessoa sair e voltar a jogar.
 
 
 #### Conclusão
 
-O Projeto TrybeTunes ainda está em desenvolvimento e melhoria, a página de favoritos e Perfil ainda serão criadas. Seguindo metodologia ágeis, pequenas partes estão sendo entregues para que possa receber feedbacks e sofrer melhorias mais rápidas e entender se está indo no caminho certo ou não. O desafio, de realizar esse projeto, me ajudou a alavancar minhas hard skills de reactJS e melhorar consideravelmente minha lógica de programação.
+O Projeto Game Trivia ainda está em desenvolvimento e recebendo melhorias, a página de configuração está em desenvolvimento, pois ainda possui alguns bugs. Esse projeto foi realizado em grupo em colaboração de [Antônio Augusto](https://github.com/Toineto), [Samuel De Alencar](https://github.com/SamuelDAlencar) e para organizar as tarefas em uma equipe foi necessário aplicar uma metodologia ágil, o kanban. Pequenas partes estão sendo entregues para que possa receber feedback e sofrer melhorias mais rápidas, assim podemos entender se estamos indo no caminho certo ou não. O desafio de realizar esse projeto me ajudou a alavancar minhas hard skills de ReactJS, melhorar consideravelmente minha lógica de programação e entender muito bem como uma metodologia ágil contribui numa equipe de desenvolvedores.
   
-
+---
 ### Trybe
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
