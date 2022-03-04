@@ -7,7 +7,7 @@ Este repositório contem o **Projeto React Game Trivia** que reúne o aprendizad
 
 ### Resultado obtido:
 ### Deploy/ github pages do Projeto: [Game Trivia](https://willianbatist.github.io/project-game-trivia/)
-![](./gameTrivia-2022-02-20.mp4)
+![](./StarWars-2022-03-03_18.25.16.gif)
 
 #### Habilidades que foram exigidas:
 
