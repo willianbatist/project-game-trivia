@@ -24,7 +24,6 @@ Este repositório contem o **Projeto React Game Trivia** que reúne o aprendizad
 
 ## Apresentação do Projeto
 
-
 ### Introdução
 
 O Projeto Game Trivia busca recriar os clássicos jogos de perguntas. Nesse projeto, foram utilizadas as seguintes tecnologias: ReactJS, Redux (actions, reducers, etc…), React Router e para gerar as perguntas foi utilizado a [API Trivia](https://opentdb.com/api_config.php). API gera perguntas de várias categorias e níveis de dificuldade diferentes, sendo possível combinar categorias com níveis de dificuldade, para só gerar perguntas ao qual foi especificada. Com esse projeto busco apresentar todo o conhecimento aprendido até o presente momento em Front-End, e me testar em relação aos desafios de criar uma página web dinâmica, que recebe várias interações do usuário, e graças ao Redux lida muito bem com a passagem de informações entre componentes React.
