@@ -4,7 +4,6 @@ Este repositório contem o **Projeto React Game Trivia** que reúne o aprendizad
 **GitHub [Trybe](https://github.com/tryber)**.
 
 # Projeto Game Trivia
-
 ### Resultado obtido:
 
 ### Deploy/ github pages do Projeto: [Game Trivia](https://willianbatist.github.io/project-game-trivia/)
