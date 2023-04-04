@@ -9,7 +9,7 @@ Este repositório contem o **Projeto React Game Trivia** que reúne o aprendizad
 ### Deploy/ github pages do Projeto: [Game Trivia](https://willianbatist.github.io/project-game-trivia/)
 ![](./GameTriviaNew.gif)
 
-#### Habilidades que foram exigidas:
+####
 
   - Fazer requisições e consumir dados vindos de uma `API`;
   - Utilizar os ciclos de vida de um componente React;
